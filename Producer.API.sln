@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Messages", "Shared.Messages\Shared.Messages.csproj", "{A420CE7B-09C5-447F-9DE6-95CD5991BB92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageConsumer.API", "MessageConsumer.API\MessageConsumer.API.csproj", "{9EF00CD1-1A46-463E-A013-AC3F54AAE002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageProducer.API", "MessageProducer.API\MessageProducer.API.csproj", "{8C7D5DAE-DA73-4534-B728-C1F127756088}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A420CE7B-09C5-447F-9DE6-95CD5991BB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A420CE7B-09C5-447F-9DE6-95CD5991BB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A420CE7B-09C5-447F-9DE6-95CD5991BB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A420CE7B-09C5-447F-9DE6-95CD5991BB92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF00CD1-1A46-463E-A013-AC3F54AAE002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF00CD1-1A46-463E-A013-AC3F54AAE002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF00CD1-1A46-463E-A013-AC3F54AAE002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF00CD1-1A46-463E-A013-AC3F54AAE002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C7D5DAE-DA73-4534-B728-C1F127756088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7D5DAE-DA73-4534-B728-C1F127756088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7D5DAE-DA73-4534-B728-C1F127756088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7D5DAE-DA73-4534-B728-C1F127756088}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

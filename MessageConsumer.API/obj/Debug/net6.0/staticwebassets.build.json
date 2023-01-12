@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ztIgHc2NQWpBuH0tAVeNgEPS9aEoKcK5XjSuyPcjvo8=",
+  "Source": "MessageConsumer.API",
+  "BasePath": "_content/MessageConsumer.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
