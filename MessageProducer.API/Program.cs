@@ -12,11 +12,23 @@ builder.Services.AddMassTransit(x =>
 {
     x.UsingRabbitMq((context,cfg) =>
     {
-        cfg.Host("localhost", "/", h => {
-            h.Username("guest");
-            h.Password("guest");
-        });
+        //cfg.Host(new Uri("rabbitmq://trabbitmq.cdm.smis.ch:5672", UriKind.Absolute), h => {
+        //    h.Username("rabbitmana");
+        //    h.Password("rmqaa@CDM");
 
+        //    h.UseSsl(s =>
+        //    {
+        //        s.Protocol = SslProtocols.Tls12;
+        //    });
+        //});
+
+        cfg.Host("trabbitmq", 5672, "/",
+            h =>
+            {
+                h.Username("devl");
+                h.Password("devldevl");
+            }
+        );
         cfg.ConfigureEndpoints(context);
     });
 });

@@ -8,25 +8,28 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/virmaxdam/.nuget/packages/": {}
+    "C:\\Users\\dao\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/virmaxdam/DevProjects/Shared.Messages/Shared.Messages.csproj",
+      "projectUniqueName": "D:\\tmp\\Shared.Messages\\Shared.Messages.csproj",
       "projectName": "Shared.Messages",
-      "projectPath": "/Users/virmaxdam/DevProjects/Shared.Messages/Shared.Messages.csproj",
-      "packagesPath": "/Users/virmaxdam/.nuget/packages/",
-      "outputPath": "/Users/virmaxdam/DevProjects/Shared.Messages/obj/",
+      "projectPath": "D:\\tmp\\Shared.Messages\\Shared.Messages.csproj",
+      "packagesPath": "C:\\Users\\dao\\.nuget\\packages\\",
+      "outputPath": "D:\\tmp\\Shared.Messages\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/virmaxdam/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\dao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nexus.cdm.smis.ch/repository/nuget-group-v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -59,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

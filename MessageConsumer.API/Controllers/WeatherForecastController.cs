@@ -18,10 +18,9 @@ public class WeatherForecastController : ControllerBase
     private readonly IPublishEndpoint _publishEndpoint;
 
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger, IPublishEndpoint publishEndpoint)
+    public WeatherForecastController(ILogger<WeatherForecastController> logger)
     {
         _logger = logger;
-        _publishEndpoint = publishEndpoint;
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
@@ -30,11 +29,11 @@ public class WeatherForecastController : ControllerBase
         await _publishEndpoint.Publish<IOrderCreated>(new
         {
             Id = 1,
-            ProductName = "iPhone 14",
+            ProductName = $"Hello From {nameof(ConsumerApi)}",
             Quantity = 1,
             Price = 42.66
         });
-        
+
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
             Date = DateTime.Now.AddDays(index),

@@ -22,3 +22,15 @@
 /Users/virmaxdam/DevProjects/Shared.Messages/obj/Debug/net6.0/refint/Shared.Messages.dll
 /Users/virmaxdam/DevProjects/Shared.Messages/obj/Debug/net6.0/Shared.Messages.pdb
 /Users/virmaxdam/DevProjects/Shared.Messages/obj/Debug/net6.0/ref/Shared.Messages.dll
+D:\tmp\Shared.Messages\bin\Debug\net6.0\Shared.Messages.deps.json
+D:\tmp\Shared.Messages\bin\Debug\net6.0\Shared.Messages.dll
+D:\tmp\Shared.Messages\bin\Debug\net6.0\Shared.Messages.pdb
+D:\tmp\Shared.Messages\obj\Debug\net6.0\Shared.Messages.csproj.AssemblyReference.cache
+D:\tmp\Shared.Messages\obj\Debug\net6.0\Shared.Messages.GeneratedMSBuildEditorConfig.editorconfig
+D:\tmp\Shared.Messages\obj\Debug\net6.0\Shared.Messages.AssemblyInfoInputs.cache
+D:\tmp\Shared.Messages\obj\Debug\net6.0\Shared.Messages.AssemblyInfo.cs
+D:\tmp\Shared.Messages\obj\Debug\net6.0\Shared.Messages.csproj.CoreCompileInputs.cache
+D:\tmp\Shared.Messages\obj\Debug\net6.0\Shared.Messages.dll
+D:\tmp\Shared.Messages\obj\Debug\net6.0\refint\Shared.Messages.dll
+D:\tmp\Shared.Messages\obj\Debug\net6.0\Shared.Messages.pdb
+D:\tmp\Shared.Messages\obj\Debug\net6.0\ref\Shared.Messages.dll

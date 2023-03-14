@@ -1,9 +1,8 @@
 using MassTransit;
 using Microsoft.AspNetCore.Mvc;
-using Shared.Messages;
 using Shared.Messages.v1;
 
-namespace MyFirstApi.Controllers;
+namespace ProducerApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]
@@ -30,7 +29,7 @@ public class WeatherForecastController : ControllerBase
         await _publishEndpoint.Publish<IOrderCreated>(new
         {
             Id = 1,
-            ProductName = "iPhone 14",
+            ProductName = $"Hello From {nameof(ProducerApi)}",
             Quantity = 1,
             Price = 42.66
         });

@@ -4,13 +4,52 @@ using MassTransit;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var busControl = Bus.Factory.CreateUsingRabbitMq(cfg =>
+//var busControl = Bus.Factory.CreateUsingRabbitMq(cfg =>
+//{
+//    cfg.Host("trabbitmq", 5672, "/",
+//        h =>
+//        {
+//            h.Username("devl");
+//            h.Password("devldevl");
+//        }
+//    );
+    
+//    //cfg.ReceiveEndpoint("order-created-event", e =>
+//    cfg.ReceiveEndpoint("order-created-event", e =>
+//    {
+//        e.Consumer<OrderCreatedConsumer>();
+//    });
+//});
+
+
+builder.Services.AddMassTransit(x =>
 {
-    cfg.ReceiveEndpoint("order-created-event", e =>
+    x.UsingRabbitMq((context, cfg) =>
     {
-        e.Consumer<OrderCreatedConsumer>();
+        //cfg.Host(new Uri("rabbitmq://trabbitmq.cdm.smis.ch:5672", UriKind.Absolute), h => {
+        //    h.Username("rabbitmana");
+        //    h.Password("rmqaa@CDM");
+
+        //    h.UseSsl(s =>
+        //    {
+        //        s.Protocol = SslProtocols.Tls12;
+        //    });
+        //});
+
+        cfg.Host("trabbitmq", 5672, "/",
+            h =>
+            {
+                h.Username("devl");
+                h.Password("devldevl");
+            }
+        );
+        cfg.ReceiveEndpoint("consumer-receiver", e =>
+        {
+            e.Consumer<OrderCreatedConsumer>();
+        });
     });
 });
+
 
 
 builder.Services.AddControllers();
@@ -18,18 +57,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
     
-await busControl.StartAsync(new CancellationToken());
-
-try
-{
-    Console.WriteLine("Press enter to exit");
-    
-    await Task.Run(Console.ReadLine);
-}
-finally
-{
-    await busControl.StopAsync();
-}
+//await busControl.StartAsync();
 
 var app = builder.Build();
 

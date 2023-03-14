@@ -1,4 +1,4 @@
-namespace MyFirstApi;
+namespace ProducerApi;
 
 public class WeatherForecast
 {

@@ -1,10 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Messages", "Shared.Messages\Shared.Messages.csproj", "{A420CE7B-09C5-447F-9DE6-95CD5991BB92}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Messages", "Shared.Messages\Shared.Messages.csproj", "{A420CE7B-09C5-447F-9DE6-95CD5991BB92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageConsumer.API", "MessageConsumer.API\MessageConsumer.API.csproj", "{9EF00CD1-1A46-463E-A013-AC3F54AAE002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageConsumer.API", "MessageConsumer.API\MessageConsumer.API.csproj", "{9EF00CD1-1A46-463E-A013-AC3F54AAE002}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageProducer.API", "MessageProducer.API\MessageProducer.API.csproj", "{8C7D5DAE-DA73-4534-B728-C1F127756088}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageProducer.API", "MessageProducer.API\MessageProducer.API.csproj", "{8C7D5DAE-DA73-4534-B728-C1F127756088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +27,11 @@ Global
 		{8C7D5DAE-DA73-4534-B728-C1F127756088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C7D5DAE-DA73-4534-B728-C1F127756088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C7D5DAE-DA73-4534-B728-C1F127756088}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6062709A-3E9E-40EA-B702-81A398EE486A}
 	EndGlobalSection
 EndGlobal

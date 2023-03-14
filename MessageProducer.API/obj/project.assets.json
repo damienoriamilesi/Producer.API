@@ -1396,32 +1396,35 @@
     ]
   },
   "packageFolders": {
-    "/Users/virmaxdam/.nuget/packages/": {}
+    "C:\\Users\\dao\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/virmaxdam/DevProjects/MessageProducer.API/MessageProducer.API.csproj",
+      "projectUniqueName": "D:\\tmp\\MessageProducer.API\\MessageProducer.API.csproj",
       "projectName": "MessageProducer.API",
-      "projectPath": "/Users/virmaxdam/DevProjects/MessageProducer.API/MessageProducer.API.csproj",
-      "packagesPath": "/Users/virmaxdam/.nuget/packages/",
-      "outputPath": "/Users/virmaxdam/DevProjects/MessageProducer.API/obj/",
+      "projectPath": "D:\\tmp\\MessageProducer.API\\MessageProducer.API.csproj",
+      "packagesPath": "C:\\Users\\dao\\.nuget\\packages\\",
+      "outputPath": "D:\\tmp\\MessageProducer.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/virmaxdam/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\dao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nexus.cdm.smis.ch/repository/nuget-group-v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/virmaxdam/DevProjects/Shared.Messages/Shared.Messages.csproj": {
-              "projectPath": "/Users/virmaxdam/DevProjects/Shared.Messages/Shared.Messages.csproj"
+            "D:\\tmp\\Shared.Messages\\Shared.Messages.csproj": {
+              "projectPath": "D:\\tmp\\Shared.Messages\\Shared.Messages.csproj"
             }
           }
         }
@@ -1468,7 +1471,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
